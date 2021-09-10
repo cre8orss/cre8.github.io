@@ -87,3 +87,16 @@ body { /* body */
 time { 
   font-size: 0.8em;
 }
+
+/* Amado's Profile Picture styling*/
+.amadopfp {
+  height: 300px;
+  width: 200px;
+}
+
+
+/* Lourdes's Profile Picture */
+.lourdespfp {
+    height: 200px;
+    width: 200px;
+}

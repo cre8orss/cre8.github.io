@@ -1,7 +1,11 @@
 /* -------------------------------- GROUP PORTFOLIO PAGE CSS -------------------------------- */
 /* website thumbnails */
 .thumbnail {
-    width: 15%
+    width: 15%;
+}
+
+.team-pic {
+    width: 150px;
 }
 
 /* -------------------------------- ERIN'S RESUME PAGE CSS -------------------------------- */

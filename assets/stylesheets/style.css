@@ -1,0 +1,70 @@
+
+/* -------------------------------- ERIN'S RESUME PAGE CSS -------------------------------- */
+/* left column */
+/* container holds profile picture */
+.left {
+    /*background-color: red;*/
+    max-width: 13%;
+    float: left;
+    margin-right: 2%;
+}
+/* profile picture styling */
+.circle {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* right column */
+/* container holds contact information */
+address {
+    float: left;
+    width: 80%;
+}
+.vcard {
+    margin-top: 1%;
+    font-family: 'Lora', Times, Georgia, serif;
+    font-weight: 400;
+}
+#name {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 300%;
+    font-style: normal;
+}
+
+/* clear floats after the columns */
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* container holds resume */
+body {
+    margin: 1%;
+}
+h2 {
+    display: flex;
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+/* creates horizontal line next to word */
+h2:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    margin: auto;
+    margin-left: 10px;
+}
+h3 {
+    margin: auto;
+}
+
+

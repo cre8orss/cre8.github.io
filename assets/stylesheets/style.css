@@ -4,6 +4,11 @@
     width: 15%;
 }
 
+.logo {
+    float: right;
+    width: 10%;
+}
+
 .team-pic {
     width: 150px;
 }

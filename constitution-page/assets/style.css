@@ -1,0 +1,65 @@
+body {
+    background-image: url(https://wallpapertag.com/wallpaper/full/9/5/3/136940-vintage-paper-background-2362x1575-for-4k.jpg);
+    background-color: #E3C58C;
+    background-blend-mode: overlay;
+}
+
+h1 {
+    font-family: 'Italianno', cursive;
+    font-size: 50px;
+}
+
+.nav_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.4);
+    float: left;
+    /* position: fixed; */
+}
+
+.nav_bar_align {
+    float: left;
+}
+
+.nav_bar_text {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.nav_bar_text:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.nav_dropdown {
+    position: relative;   
+}
+
+.nav_button {
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav_drop_content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.4);;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.nav_dropdown:hover .nav_drop_content {
+    display: block;
+}
+

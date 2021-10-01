@@ -1,5 +1,4 @@
-# group-8-web-systems-dev
-Group project repo for Web Systems Development
+# Group Portfolio Website
 
 The group portfolio (index) page, our personal portfolio pages, and our assets directory with our
 profile pictures have been created and implemented to form a working website. Our group portfolio

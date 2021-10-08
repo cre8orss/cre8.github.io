@@ -14,7 +14,8 @@
 
 <body>
   <div class="container-fluid">
-    <img src="assets/images/Logo_Color_Transparent.png" alt="ITWS Logo" class=" mx-auto d-block" id="banner-logo">
+    <img src="assets/images/Logo_Color_Transparent.png" alt="Company Expose Logo" class=" mx-auto d-block"
+      id="banner-logo">
   </div>
 
   <!-- Navigation bar, fixed to top of page -->
@@ -36,33 +37,52 @@
           <a class="nav-link" href="tutoring.html">GNH Tutoring</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="donate.html">Donate!</a>
+            <a class="nav-link" href="donate.html">Donate!</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <!-- Form to register for tutoring, form won't submit unless all fields are filled -->
-  <div class="container">
-    <form class="needs-validation">
+  <!-- Donation form -->
+    <div class="container">
+      <form class="needs-validation">
       <div class="mb-3">
         <label for="input-name" class="form-label">Name</label>
         <input type="text" class="form-control" id="input-name" aria-describedby="name-help" required>
         <div id="name-help" class="form-text">Enter your first and last name.</div>
       </div>
       <div class="mb-3">
-        <label for="input-email" class="form-label">RPI Email</label>
+        <label for="input-email" class="form-label">Email</label>
         <input type="email" class="form-control" id="input-email" aria-describedby="email-help" required>
-        <div id="email-help" class="form-text">Enter your RPI email.</div>
+        <div id="email-help" class="form-text">Enter your email.</div>
       </div>
-      <div class="mb-3 form-check">
-        <input type="checkbox" class="form-check-input" id="subscribe-mailing-list">
-        <label class="form-check-label" for="subscribe-mailing-list">Subscribe to Gamma Nu Eta Newsletter.</label>
+      <label for="input">Donation Amount</label>
+      <div class="input-group mb-3">
+        <span class="input-group-text">$</span>
+        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+        <span class="input-group-text">.00</span>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+      
+      <button type="submit" class="btn btn-primary">Donate</button>
+        </form>
+    </div>
 
+  <p id="donation-reason">
+    <button class="btn btn-primary" id="driver" type="button" data-bs-toggle="collapse"
+      data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+      Why should I donate to Gamma Nu Eta?
+    </button>
+  </p>
+
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      <!-- Content is loaded dynamically using AJAX which reads from JSON file -->
+      <div id="stage">
+
+      </div>
+    </div>
   </div>
+
 
 </body>
 
